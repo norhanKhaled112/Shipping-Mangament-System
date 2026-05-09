@@ -55,9 +55,9 @@ namespace wasalha
                     TextAlign = ContentAlignment.MiddleLeft,
                     Font = new Font("Segoe UI Semibold", 10),
                     ForeColor = darkBlue
-                };
+                };//-------------------
                 btn.FlatAppearance.BorderSize = 0;
-                btn.MouseEnter += (s, e) => { btn.BackColor = Color.FromArgb(91, 158, 201); };
+                btn.MouseEnter += (s, e) => { btn.BackColor = Color.FromArgb( 91, 158, 201); };
                 btn.MouseLeave += (s, e) => { btn.BackColor = Color.White; };
 
                 string itemName = items[i];
