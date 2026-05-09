@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace logo
+namespace wasalha
 {
-    public partial class Form3 : Form
+    public partial class sign_up : Form
     {
-        public Form3()
+        public sign_up()
         {
             InitializeComponent();
         }
@@ -118,7 +118,7 @@ namespace logo
 
                     MessageBox.Show("Sign up successfully!");
                     this.Hide();
-                    Form2 loginForm = new Form2();
+                    login loginForm = new login();
                     loginForm.Show();
                 }
                 catch (Exception ex)
@@ -172,7 +172,7 @@ namespace logo
 
                     MessageBox.Show("Admin registered successfully!");
                     this.Hide();
-                    Form2 loginForm = new Form2();
+                    login loginForm = new login();
                     loginForm.Show();
                 }
                 catch (Exception ex)
@@ -181,6 +181,11 @@ namespace logo
                     MessageBox.Show("Error " + ex.Message);
                 }
             }
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

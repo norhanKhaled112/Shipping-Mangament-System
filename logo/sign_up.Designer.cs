@@ -1,6 +1,6 @@
-﻿namespace logo
+﻿namespace wasalha
 {
-    partial class Form3
+    partial class sign_up
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(sign_up));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -259,7 +259,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.label4.Location = new System.Drawing.Point(47, 117);
+            this.label4.Location = new System.Drawing.Point(47, 52);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 23);
             this.label4.TabIndex = 1;
@@ -270,7 +270,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.label3.Location = new System.Drawing.Point(47, 52);
+            this.label3.Location = new System.Drawing.Point(47, 117);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 23);
             this.label3.TabIndex = 0;
@@ -300,6 +300,7 @@
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Create Account";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // txtclientaddress
             // 
@@ -404,7 +405,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.label7.Location = new System.Drawing.Point(49, 44);
+            this.label7.Location = new System.Drawing.Point(47, 49);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 23);
             this.label7.TabIndex = 1;
@@ -422,7 +423,7 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "Phone";
             // 
-            // Form3
+            // sign_up
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -434,7 +435,7 @@
             this.Controls.Add(this.btnsigup);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Name = "Form3";
+            this.Name = "sign_up";
             this.Text = "Wasalha";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);

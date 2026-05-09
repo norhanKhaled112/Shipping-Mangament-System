@@ -1,6 +1,6 @@
-﻿namespace logo
+﻿namespace wasalha
 {
-    partial class Form1
+    partial class splash
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(splash));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -76,7 +76,7 @@
             this.guna2Button1.Text = "Get Started";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // Form1
+            // splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -85,8 +85,9 @@
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "splash";
             this.Text = "wasalha";
+            this.Load += new System.EventHandler(this.splash_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

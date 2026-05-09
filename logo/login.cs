@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 using System.Web.Configuration;
 using System.Windows.Forms;
 
-namespace logo
+namespace wasalha
 {
-    public partial class Form2 : Form
+    public partial class login : Form
     {
-        public Form2()
+        public login()
         {
             InitializeComponent();
         }
@@ -41,7 +41,7 @@ namespace logo
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form3 f3 = new Form3();
+            sign_up f3 = new sign_up();
             f3.Show();
             this.Hide();
         }
@@ -94,7 +94,7 @@ namespace logo
                     {
                         int employeeId = Convert.ToInt32(reader["employee_id"]);
                         this.Hide();
-                        Form4 adminForm = new Form4();
+                        adminHome adminForm = new adminHome(employeeId);
                         adminForm.Show();
                     }
                     
@@ -102,7 +102,7 @@ namespace logo
                     {
                         int customerId = Convert.ToInt32(reader["customer_id"]);
                         this.Hide();
-                        Form4 customerForm = new Form4();
+                        home customerForm = new home(customerId);
                         customerForm.Show();
                     }
                 }

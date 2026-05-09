@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
 
-namespace logo
+namespace wasalha
 {
-    public partial class Form1 : Form
+    public partial class splash : Form
     {
-        public Form1()
+        public splash()
         {
             InitializeComponent();
         }
@@ -25,9 +25,14 @@ namespace logo
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
+            login f = new login();
             f.Show();
             this.Hide();
+        }
+
+        private void splash_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
