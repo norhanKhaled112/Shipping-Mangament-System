@@ -37,56 +37,56 @@ It supports two types of users — **Customers** and **Admins** — each with th
 ### 🚀 Splash Screen
 
 
-![Splash](screenshots/splash.png)
+![Splash](screenshots/splash.jpeg)
 
 
 
 ### 👤 Customer Home
 
 
-![Customer Home](screenshots/customer_home.png)
+![Customer Home](screenshots/customerhome.jpeg)
 
 
 
 ### 📦 Create Shipment
 
 
-![Create Shipment](screenshots/create_shipment.png)
+![Create Shipment](screenshots/shipclient.jpeg)
 
 
 
 ### 🚚 Customer Tracking
 
 
-![Customer Tracking](screenshots/customer_tracking.png)
+![Customer Tracking](screenshots/trackingadmin.jpeg)
 
 
 
 ### 🛠️ Admin Home
 
 
-![Admin Home](screenshots/admin_home.png)
+![Admin Home](screenshots/homeadmin.jpeg)
 
 
 
 ### 📦 Admin Shipments
 
 
-![Admin Shipments](screenshots/admin_shipments.png)
+![Admin Shipments](screenshots/shipadmin.jpeg)
 
 
 
 ### 📍 Admin Tracking
 
 
-![Admin Tracking](screenshots/admin_tracking.png)
+![Admin Tracking](screenshots/trackingadmin.jpeg)
 
 
 
 ### 📊 Reports & Analytics
 
 
-![Reports](screenshots/reports.png)
+![Reports](screenshots/reports.jpeg)
 
 
 
@@ -172,7 +172,7 @@ git clone https://github.com/norhanKhaled112/Shipping-Mangament-System.git
 
 ## 📄 License
 
-This project was built as an academic project — ITI 2026.
+This project was built as an academic project  2026.
 
 ---
 
